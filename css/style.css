@@ -1,0 +1,324 @@
+/* RESET */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* CONFIG. GERAIS */
+html {
+  background: #f8f9fa;
+  font-family: 'Nunito', Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+h1, h2, h3, h4 {
+  font-weight: normal;
+}
+
+a {
+  font-size: 13px;
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #161616;
+}
+
+li {
+  list-style: none;
+}
+
+/* NAVBAR */
+.nav__mobile {
+  display: none;
+}
+
+.nav {
+  background: #a0bed0;
+  padding: 2em 0;
+}
+
+.nav .container {
+  width: 80vw;
+  margin: auto;
+}
+
+.nav__menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav__menu li a {
+  font-size: 1.3em;
+  padding: 0 2em;
+}
+
+/* MAIN */
+.banner {
+  background: url(../img/foto-banner.jpg) no-repeat center #a0bed0;
+  background-size: cover;
+  height: 72vh;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.banner__title {
+  font-family: 'Varela Round', Helvetica, sans-serif;
+  font-size: 8em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.8;
+  margin-top: -0.5em;
+}
+
+.banner__subtitle {
+  font-size: 1.8em;
+  margin-bottom: 2em;
+  text-shadow: 2px 2px 2px #333;
+}
+
+.btn {
+  background-color: #829dad;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  border-radius: 0.5em;
+  padding: 1em 2em;
+}
+
+.btn:hover {
+  background-color: #36b0e0;
+  color: #161616;
+}
+
+/* ABOUT */
+.about {
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  color: #fff;
+  padding: 3em 0;
+}
+
+.about__title {
+  font-size: 1.7em;
+  font-weight: bold;
+  padding-bottom: 1em;
+}
+
+.about p {
+  font-size: 1.2em;
+}
+
+/* DESTINO: SIBÉRIA */
+#destinos .container {
+  width: 75vw;
+  margin: auto;
+}
+
+.destination--siberia {
+  display: flex;
+  align-items: center;
+  margin: 3em 0;
+}
+
+.destination--siberia__img {
+  max-width: 75%;
+}
+
+.destination__border {
+  background-color: #829dad;
+  width: 0.5em;
+  height: 10em;
+}
+
+.destination--siberia .destination__text {
+  margin-left: 3em;
+  max-width: 14%;
+}
+
+.destination__text h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.destination__text p {
+  font-size: 1.2em;
+}
+
+/* DESTINOS: GROENLÂNDIA E ANTÁRTIDA */
+.destination--groenlandia {
+  width: 75vw;
+  display: flex;
+}
+
+/* ajuda para visualizar a diferença entre o wrapper-img e img
+.destination--wrapper-img {
+  background-color: red;
+  flex-grow: 1;
+} */
+
+.destination--groenlandia__img,
+.destination__description--groenlandia {
+  flex: 1;
+  
+}
+
+.destination--antartida__img {
+  display: none;
+}
+
+.destination__description--groenlandia {
+  background-color: #161616;
+  color: rgba(255, 255, 255, 0.5)
+}
+
+/* DESTINOS: GROENLÂNDIA E ANTÁRTIDA */
+/* .destination--groenlandia,
+.destination--antartida {
+  display: flex;
+  width: 75vw;
+}
+
+.destination--wrapper-img,
+.destination__description {
+  display: flex;
+  flex: 50%;
+}
+
+.destination--groenlandia__img,
+.destination--antartida__img {
+  width: 100%;
+  height: auto;
+
+  As propriedades abaixo foram colocadas para que os 2 blocos da esquerda ficassem alinhados. Não sei se existe outro jeito.
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.destination--wrapper-img {
+  width: 35vw;
+  height: auto;
+}
+
+.destination__description {
+  background-color: #161616;
+  width: 35vw;
+}
+
+.destination__description--groenlandia {
+  margin-left: 3em;
+  padding-right: 5em;
+  align-items: center;
+}
+
+.destination__description--antartida {
+  text-align: right;
+  padding-left: 5em;
+  margin-right: 3em;
+  align-items: center;
+}
+
+.destination__title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 3em;
+  margin-bottom: 0.5em;
+}
+
+.destination_paragraph {
+  font-size: 1.1em;
+  color: rgb(100, 100, 100, 5);
+} */
+
+
+/* FOOTER */
+.footer {
+  background-color: #161616;
+  text-align: center;
+  margin-top: 5em;
+  padding: 3em;
+}
+
+.footer a {
+  font-size: 1.1em;
+  color: #829dad;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+.footer__socialmedia {
+  display: flex;
+  justify-content: center;
+  padding: 3em 0;
+}
+
+.footer__twitter,
+.footer__facebook,
+.footer__youtube {
+  padding: 0 0.7em;
+  opacity: 0.5;
+}
+
+.footer small {
+  font-size: 1em;
+  color: #888;
+}
+
+/* MEDIA QUERIES */
+
+/* Tamanho médio */
+@media(max-width: 1120px) { 
+  .nav__menu {
+    justify-content: center;
+  }
+}
+
+/* Smartphone */
+@media (max-width: 600px) {
+  .nav {
+    background-color: #fff
+  }
+
+  .nav__mobile {
+    display: inline;
+  }
+
+  .nav__link {
+    display: none;
+  }
+
+  .banner {
+    max-height: 60vh; 
+  }
+
+  .banner__title {
+    font-size: 5em;
+    line-height: 1em;
+    margin: 0.2em 0;
+  }
+
+  .banner__subtitle {
+    font-size: 1.2em;
+    margin-bottom: 3em;
+  }
+
+}
+
+
+
+
+
+
+
+
+
